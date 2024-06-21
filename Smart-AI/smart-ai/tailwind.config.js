@@ -14,8 +14,8 @@ export default {
       }),
 
       colors: {
-        primaryBlack: "#121212",
-        secondaryBlack: "#181818",
+        cyan1: "#65CFE3",
+        secondary: "#FF4545",
         chipsBlack: "#222222",
         chipsText: "#BEBEBE",
       },

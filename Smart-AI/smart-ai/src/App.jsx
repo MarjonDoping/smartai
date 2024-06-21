@@ -4,6 +4,7 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import HeroPage from './Pages/HeroPage'
+import StepsPage from './Pages/StepsPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <div className="font-jakarta">
     <Navbar/>
     <HeroPage/>
+    <StepsPage/>
     </div>
      
     </>
