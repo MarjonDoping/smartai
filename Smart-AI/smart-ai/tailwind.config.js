@@ -1,3 +1,4 @@
+const colors = require('tailwindcss/colors')
 
 export default {
   content: [
@@ -7,18 +8,14 @@ export default {
   ],
   theme: {
     extend: {
-
-      backgroundImage: (theme) => ({
-        "gradient-custom":
-          'linear-gradient(227deg, theme("colors.teal.300") 2.39%, theme("colors.green.800") 2.41%, theme("colors.pink.500") 48.1%, theme("colors.yellow.300") 95.67%)',
-      }),
+      backgroundImage: {
+        "cyan-gradient":
+          "linear-gradient(89deg, #00B9ED 34.77%, #AAFDEF 113.38%)",
+      },
 
       colors: {
-        cyan1: "#65CFE3",
-        secondary: "#FF4545",
-        chipsBlack: "#222222",
-        chipsText: "#BEBEBE",
-      },
+        myColor: '#4dcb7a',
+    },
 
       fontFamily: {
         jakarta: ["Plus Jakarta Sans", "sans-serif"],
@@ -29,13 +26,13 @@ export default {
       sm: "0.8rem",
       base: "1rem",
       xl: "1.25rem",
-      "mh1": "3rem",
-      "mh2": "1.563rem",
-      "mh3": "1.953rem",
-      "mh4": "2.25rem",
-      "mh5": "5.625rem",
-      "mh6": "9.375rem",
-      "mh7": "4rem",
+      mh1: "3rem",
+      mh2: "1.563rem",
+      mh3: "1.953rem",
+      mh4: "2.25rem",
+      mh5: "5.625rem",
+      mh6: "9.375rem",
+      mh7: "4rem",
     },
 
     animation: {

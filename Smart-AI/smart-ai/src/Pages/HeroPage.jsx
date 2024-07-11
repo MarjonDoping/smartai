@@ -22,7 +22,7 @@ const HeroPage = () => {
             </PrimaryChip>
           </div> */}
           <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl text-black font-bold mb-4 py-4">
-            <span className="text-teal-500">SMART AI: </span> Your Smart
+            <span style={{ color: '#65CFE3' }} className="text-myColor ">SMART AI: </span> Your Smart
             Conversational Business Solution
           </h1>
           <p className="text-1xl text-black py-4">

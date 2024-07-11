@@ -5,6 +5,11 @@ import './App.css'
 import Navbar from './components/Navbar'
 import HeroPage from './Pages/HeroPage'
 import StepsPage from './Pages/StepsPage'
+import Services from './Pages/Services'
+import Solutions from './Pages/Solutions'
+import Accordion from './Pages/Accordion'
+import InquirePage from './Pages/InquirePage'
+import Footer from './Pages/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +20,11 @@ function App() {
     <Navbar/>
     <HeroPage/>
     <StepsPage/>
+    <Services/>
+    <Solutions/>
+    <Accordion/>
+    <InquirePage/>
+    <Footer/>
     </div>
      
     </>
